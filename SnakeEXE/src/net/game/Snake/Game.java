@@ -74,6 +74,9 @@ public class Game extends JPanel implements ActionListener {
 	ImageIcon icon;
 
 	public Game() {
+		
+		
+		
 		date = new SimpleDateFormat("[HH:mm:ss:SS]");
 
 		System.out.println("[SNAKE]" + date.format(new Date()) + " << Game created...");
